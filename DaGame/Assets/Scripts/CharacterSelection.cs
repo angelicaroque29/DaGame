@@ -18,7 +18,7 @@ public class CharacterSelection : MonoBehaviour
 
 	private void Update(){
 		if(Input.GetMouseButton(0)){
-			transform.Rotate(new Vector3(0.0f, Input.GetAxis("Mouse Y"), 0.0f));
+			transform.Rotate(new Vector3(0.0f, Input.GetAxis("Mouse X"), 0.0f));
 		}
 	}
 
