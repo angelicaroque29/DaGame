@@ -31,7 +31,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (!hasBeenUsed && inArea && Input.GetKeyDown(KeyCode.E) && nextTime < Time.timeSinceLevelLoad)
+        if (!hasBeenUsed && inArea && Input.GetKeyDown(KeyCode.DownArrow) && nextTime < Time.timeSinceLevelLoad)
         {
             //Debug.Log("Advance");
             nextTime = Time.timeSinceLevelLoad + waitTime;

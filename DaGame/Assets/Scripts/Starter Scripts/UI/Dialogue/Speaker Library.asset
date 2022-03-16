@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Speaker Library
   m_EditorClassIdentifier: 
   speakerSpriteList:
-  - name: Chibi
-    sprite: {fileID: 21300000, guid: d866a48e648bbfa488f149ad6ced706d, type: 3}
-  - name: Knight
-    sprite: {fileID: 21300000, guid: 50723b125b75b854a9032996cedbd9cc, type: 3}
+  - name: Timmy
+    sprite: {fileID: 21300000, guid: c7105e788aa19f34e99f315f267ee2ae, type: 3}
+  - name: Gnome
+    sprite: {fileID: 4694747019135600420, guid: b7c46e8ac90ea6b4aaa924873477fb80, type: 3}
