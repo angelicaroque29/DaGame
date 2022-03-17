@@ -15,7 +15,7 @@ TagManager:
   - UI
   - Floor
   - 
-  - 
+  - Minimap
   - 
   - 
   - 
@@ -42,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Minimap
+    uniqueID: 30226767
     locked: 0
