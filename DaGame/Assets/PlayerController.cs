@@ -46,9 +46,11 @@ public class PlayerController : MonoBehaviour
 
         	if(Input.GetKeyDown(KeyCode.Space))
         	{
+            
         		verticalVelocity = jumpForce;
         		anim.SetBool("isJumping", true);
         		isJumping = true;
+
         	}
         	if(Input.GetKeyDown(KeyCode.R))
         	{
