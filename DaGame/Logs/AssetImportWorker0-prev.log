@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53487
+53681
 Successfully changed project path to: /Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame
 /Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-23 12:50:35.498 Unity[46315:3749917] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-03-23 12:50:35.498 Unity[46315:3749917] Metal devices available: 1
-2022-03-23 12:50:35.498 Unity[46315:3749917] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-03-23 12:50:35.499 Unity[46315:3749917] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-03-23 14:38:49.230 Unity[46921:3832668] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-03-23 14:38:49.230 Unity[46921:3832668] Metal devices available: 1
+2022-03-23 14:38:49.230 Unity[46921:3832668] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-03-23 14:38:49.231 Unity[46921:3832668] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Initialize mono
 Mono path[0] = '/Applications/2020.3.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56315
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56921
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/2020.3.25f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021134 seconds.
+Registered in 0.002500 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 81.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
+- Completed reload, in  0.811 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1568ms)
-		BeginReloadAssembly (315ms)
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1025ms)
-			LoadAssemblies (338ms)
-			RebuildTransferFunctionScriptingTraits (17ms)
-			SetupTypeCache (308ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (473ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012219 seconds.
+Registered in 0.006760 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.024 seconds
+- Completed reload, in  1.503 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2026ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1504ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1752ms)
-			LoadAssemblies (174ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1236ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (491ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (850ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (748ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.017061 seconds.
+Validating Project structure ... 0.019976 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.078895 seconds.
+Upgrading shader files ...0.060030 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,20 +128,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.46 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-2022-03-23 12:50:46.475 Unity[46315:3749917] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003853560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-03-23 12:50:46.482 Unity[46315:3749917] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000038b31e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-23 14:38:56.649 Unity[46921:3832668] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e1f4f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-23 14:38:56.656 Unity[46921:3832668] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ef9b20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 258.2 MB.
-System memory in use after: 257.6 MB.
+System memory in use before: 258.5 MB.
+System memory in use after: 257.9 MB.
 
 Unloading 285 unused Assets to reduce memory usage. Loaded Objects now: 2753.
-Total: 6.632724 ms (FindLiveObjects: 0.353628 ms CreateObjectMapping: 0.165462 ms MarkObjects: 5.332149 ms  DeleteObjects: 0.779601 ms)
+Total: 4.787956 ms (FindLiveObjects: 0.235963 ms CreateObjectMapping: 0.111251 ms MarkObjects: 3.589793 ms  DeleteObjects: 0.849830 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,235 +155,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Gnome_Textured
-  artifactKey: Guid(42e30aa080a634eddb7c6e478e0d0865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured using Guid(42e30aa080a634eddb7c6e478e0d0865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d338766860c377d17fea2bce9e89394') in 0.005935 seconds 
-  Import took 0.009923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 414.140416 seconds.
-  path: Assets/Models/Gnome_Textured/Gnome.mb
-  artifactKey: Guid(85b195b6815aa4cc79f58ce2a53dbfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/Gnome.mb using Guid(85b195b6815aa4cc79f58ce2a53dbfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cb51eb4237df6bf1f38b0186ef1c70') in 44.262881 seconds 
-  Import took 45.105452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.124922 seconds.
-  path: Assets/Models/Gnome_Textured/Gnome.bmp
-  artifactKey: Guid(256fc7fa0c6d04049966b77273cc1e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/Gnome.bmp using Guid(256fc7fa0c6d04049966b77273cc1e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6850d3aa17bec87071532cad86476061') in 0.469196 seconds 
-  Import took 0.481477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Models/Gnome_Textured/gnome.mat
-  artifactKey: Guid(79aab1598896547a4aeafb6f89f1160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/gnome.mat using Guid(79aab1598896547a4aeafb6f89f1160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdd54f42636e01b1dab21daee8a2336') in 0.206622 seconds 
-  Import took 0.213841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Models/Gnome_Textured/Gnome.mb
-  artifactKey: Guid(85b195b6815aa4cc79f58ce2a53dbfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/Gnome.mb using Guid(85b195b6815aa4cc79f58ce2a53dbfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4d3ab59ba2a495d98de3868a8709d9') in 31.048027 seconds 
-  Import took 31.892353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.103893 seconds.
-  path: Assets/Models/Gnome_Textured/Gnome.mb
-  artifactKey: Guid(85b195b6815aa4cc79f58ce2a53dbfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/Gnome.mb using Guid(85b195b6815aa4cc79f58ce2a53dbfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a4e318d4501bbd339c66136e19ec39') in 34.270912 seconds 
-  Import took 35.012639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 992.222997 seconds.
-  path: Assets/Models/Gnome_Textured/gnome.mat
-  artifactKey: Guid(79aab1598896547a4aeafb6f89f1160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/gnome.mat using Guid(79aab1598896547a4aeafb6f89f1160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78374545386d9ab77e1d1f2be4cf6bf0') in 0.300660 seconds 
-  Import took 0.354482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1570.445757 seconds.
-  path: Assets/Models/Boss_Textured
-  artifactKey: Guid(9d18ec0dd6ed7472faca8308d0ecc150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured using Guid(9d18ec0dd6ed7472faca8308d0ecc150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c90e583264e9290680cfb1b880fc58') in 0.020453 seconds 
-  Import took 0.139675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.567488 seconds.
-  path: Assets/Models/Boss_Textured/Assets
-  artifactKey: Guid(874d6ce6091d646bca647eb0a2ee1cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets using Guid(874d6ce6091d646bca647eb0a2ee1cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5a45c2da325d29356d8fd1bf0d02c') in 0.021054 seconds 
-  Import took 0.048537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.442425 seconds.
-  path: Assets/Models/Boss_Textured/Assets/Boss.fbx
-  artifactKey: Guid(43383d67e7a5343c48e08393ef2d6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/Boss.fbx using Guid(43383d67e7a5343c48e08393ef2d6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
- #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #6 ImportAssetWithAutoReleasePool(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_callback_4CF
- #13 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #14 __CFRunLoopRun
- #15 CFRunLoopRunSpecific
- #16 RunCurrentEventLoopInMode
- #17 ReceiveNextEventCommon
- #18 _BlockUntilNextEventMatchingListInModeWithFilter
- #19 _DPSNextEvent
- #20 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #21 -[NSApplication run]
- #22 NSApplicationMain
- #23 EditorMain(int, char const**)
- #24 main
- #25 ???
-
-Requesting import of Guid(43383d67e7a5343c48e08393ef2d6db6) Importer(-1,00000000000000000000000000000000), Assets/Models/Boss_Textured/Assets/Boss.fbx from editor
-Resuming Guid(43383d67e7a5343c48e08393ef2d6db6) Importer(-1,00000000000000000000000000000000) -> 00000000000000000000000000000000 
-VerifyArtifactRevisionIntegrity called with invalid artifact id
-Assertion failed on expression: 'unsafeDependencies != nullptr'
-Assertion failed on expression: 'unsafeDependencies != nullptr'
-Assertion failed on expression: 'unsafeMetaInfo != nullptr'
-Assertion failed on expression: 'safeMetaInfo != nullptr'
-Assertion failed on expression: 'r.artifactID.IsValid() || r.abortImport'
-Diagnostics callstack to track who triggered the sub-import:
- #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #7 ImportAssetWithAutoReleasePool(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #8 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
- #9 invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6::operator()() const
- #10 _dispatch_client_callout
- #11 _dispatch_async_and_wait_invoke
- #12 _dispatch_client_callout
- #13 _dispatch_main_queue_callback_4CF
- #14 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #15 __CFRunLoopRun
- #16 CFRunLoopRunSpecific
- #17 RunCurrentEventLoopInMode
- #18 ReceiveNextEventCommon
- #19 _BlockUntilNextEventMatchingListInModeWithFilter
- #20 _DPSNextEvent
- #21 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #22 -[NSApplication run]
- #23 NSApplicationMain
- #24 EditorMain(int, char const**)
- #25 main
- #26 ???
-
-Sub-import of Guid(43383d67e7a5343c48e08393ef2d6db6) Importer(-1,00000000000000000000000000000000), Assets/Models/Boss_Textured/Assets/Boss.fbx skipped because a previous one failed already
- -> (artifact id: '00000000000000000000000000000000') in 0.574274 seconds  code(4) message(Build asset version error: assets/models/boss_textured/assets/boss.fbx in SourceAssetDB has modification time of '2022-03-23T17:49:06Z' while content on disk has modification time of '2022-03-23T17:49:07Z')
-  ERROR: Build asset version error: assets/models/boss_textured/assets/boss.fbx in SourceAssetDB has modification time of '2022-03-23T17:49:06Z' while content on disk has modification time of '2022-03-23T17:49:07Z'
-  Import took 0.619335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.420859 seconds.
-  path: Assets/Models/Boss_Textured/Assets/Bosss.fbx
-  artifactKey: Guid(e1d8c3b459f83420fa4eda07be8c986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/Bosss.fbx using Guid(e1d8c3b459f83420fa4eda07be8c986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844fa40449208a165ef7ef43320b822c') in 0.833899 seconds 
-  Import took 0.856895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.146714 seconds.
-  path: Assets/Models/Boss_Textured/Assets/boss.mat
-  artifactKey: Guid(9f8fa157775f7494081c9f72021ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/boss.mat using Guid(9f8fa157775f7494081c9f72021ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5890e11e684accc3fff478baf87878') in 0.045915 seconds 
-  Import took 0.061788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.430957 seconds.
-  path: Assets/Models/Boss_Textured/Assets/Boss_Export.bmp
-  artifactKey: Guid(58170b2fa6fa049eab42a2cde3bad0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/Boss_Export.bmp using Guid(58170b2fa6fa049eab42a2cde3bad0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f290ad49a07da14b6a10a0a38b2c3e9') in 0.126620 seconds 
-  Import took 0.142123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Models/Boss_Textured/Assets/Bosss.fbx
-  artifactKey: Guid(e1d8c3b459f83420fa4eda07be8c986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/Bosss.fbx using Guid(e1d8c3b459f83420fa4eda07be8c986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae91e843be5246b107518ddc9caf40d6') in 0.380059 seconds 
-  Import took 0.391829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.531465 seconds.
-  path: Assets/Models/Boss_Textured/Assets/Bosss.fbx
-  artifactKey: Guid(e1d8c3b459f83420fa4eda07be8c986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/Bosss.fbx using Guid(e1d8c3b459f83420fa4eda07be8c986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d57551dc9fd7670a97b1c7d7c1d1a27') in 0.381701 seconds 
-  Import took 0.396241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.425265 seconds.
-  path: Assets/Models/Boss_Textured/Assets/boss.mat
-  artifactKey: Guid(9f8fa157775f7494081c9f72021ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Boss_Textured/Assets/boss.mat using Guid(9f8fa157775f7494081c9f72021ab855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07623cd20caf7646520a21b2cd92d1aa') in 0.050017 seconds 
-  Import took 0.059071 seconds .
+  path: Assets/Models/Gnome_Textured/Gnome.fbx
+  artifactKey: Guid(282088bc215d8412ba48d0d17fbfa933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Gnome_Textured/Gnome.fbx using Guid(282088bc215d8412ba48d0d17fbfa933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343a795975e95051856ecacaa65dd37f') in 59.911639 seconds 
+  Import took 60.394531 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.037745 seconds.
+Registered in 0.070048 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-23 14:00:02.314 Unity[46315:3749917] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000038566f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-23 22:08:24.378 Unity[46921:3832668] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e4b4f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  2.072 seconds
+- Completed reload, in  2.482 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2085ms)
-		BeginReloadAssembly (544ms)
+	ReloadAssembly (2496ms)
+		BeginReloadAssembly (585ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
+			DisableScriptedObjects (139ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (273ms)
-		EndReloadAssembly (1450ms)
-			LoadAssemblies (353ms)
+			CreateAndSetChildDomain (243ms)
+		EndReloadAssembly (1819ms)
+			LoadAssemblies (331ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
+			SetupTypeCache (588ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (465ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (583ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 301.0 MB.
-System memory in use after: 300.8 MB.
+System memory in use before: 289.1 MB.
+System memory in use after: 288.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2802.
-Total: 4.890350 ms (FindLiveObjects: 0.932172 ms CreateObjectMapping: 0.188163 ms MarkObjects: 3.242344 ms  DeleteObjects: 0.526652 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 4.257924 ms (FindLiveObjects: 0.298725 ms CreateObjectMapping: 0.109976 ms MarkObjects: 3.320176 ms  DeleteObjects: 0.528010 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -395,99 +218,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 333.456931 seconds.
-  path: Assets/Models/TIMMY.mat
-  artifactKey: Guid(c858c71b5215e446589b71629d1816b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TIMMY.mat using Guid(c858c71b5215e446589b71629d1816b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb581a2fb7f28b4d10d3df7d2cbe6d90') in 0.268239 seconds 
-  Import took 0.273241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.578893 seconds.
-  path: Assets/Models/Ch09_1001_Diffuse.png
-  artifactKey: Guid(ca052d2c0c2b5456eac74c79480ec75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ch09_1001_Diffuse.png using Guid(ca052d2c0c2b5456eac74c79480ec75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741570b2fc83c9b321524f38ea9b064e') in 1.329760 seconds 
-  Import took 1.339504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Models/Ch09_1001_Glossiness.png
-  artifactKey: Guid(e5f87739b67ef4cac8a7ce3bbdd1b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ch09_1001_Glossiness.png using Guid(e5f87739b67ef4cac8a7ce3bbdd1b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a239d1684e4ad0d53d384316f6008445') in 0.010195 seconds 
-  Import took 0.014525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Models/Ch09_1001_Specular.png
-  artifactKey: Guid(b2d0c76ac31d5425e9b761213c460724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ch09_1001_Specular.png using Guid(b2d0c76ac31d5425e9b761213c460724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8592b9ccd5b4715d69009fbdb23d1ee2') in 0.009866 seconds 
-  Import took 0.013810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Models/Ch09_1001_Normal.png
-  artifactKey: Guid(53f671409e18748668e4bf6666a5f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ch09_1001_Normal.png using Guid(53f671409e18748668e4bf6666a5f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127ecfb8734c67fedfa9209584b310f7') in 0.008929 seconds 
-  Import took 0.013518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.461741 seconds.
-  path: Assets/Models/Timmy.fbx
-  artifactKey: Guid(de0957dea9ebd4ec5ad1ff8ca6ff4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Timmy.fbx using Guid(de0957dea9ebd4ec5ad1ff8ca6ff4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453f5aec1024c81f783b57d9d24b0c60') in 0.164479 seconds 
-  Import took 0.170251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 237.865279 seconds.
-  path: Assets/Models/Ch09_1001_Normal.png
-  artifactKey: Guid(53f671409e18748668e4bf6666a5f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ch09_1001_Normal.png using Guid(53f671409e18748668e4bf6666a5f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa821d7548143d0c4304fae07ea25ee8') in 0.248460 seconds 
-  Import took 0.289512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.685311 seconds.
-  path: Assets/Models/TIMMY.mat
-  artifactKey: Guid(c858c71b5215e446589b71629d1816b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TIMMY.mat using Guid(c858c71b5215e446589b71629d1816b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba735d8b128e148ef970be12ae95c13') in 0.162745 seconds 
-  Import took 0.173120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.886014 seconds.
-  path: Assets/Models/Timmy_Textured
-  artifactKey: Guid(afd3cbefd3d2b4b0cad783f3f631467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Timmy_Textured using Guid(afd3cbefd3d2b4b0cad783f3f631467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02198b58fc11f98ce552ed0d937a363') in 0.003691 seconds 
-  Import took 0.008842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.637338 seconds.
-  path: Assets/Models/Mini_Textured
-  artifactKey: Guid(0a0eb82330e0a4775a6d1c07aaf2ec73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Mini_Textured using Guid(0a0eb82330e0a4775a6d1c07aaf2ec73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d383fc7ee9bbbc3d2014484d1b5624') in 0.002278 seconds 
-  Import took 0.006919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1295.236676 seconds.
-  path: Assets/Models/Gnome_Textured/Gnome.fbx
-  artifactKey: Guid(282088bc215d8412ba48d0d17fbfa933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/Gnome.fbx using Guid(282088bc215d8412ba48d0d17fbfa933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0964acef8c52fbdef0126757497c57af') in 64.970007 seconds 
-  Import took 68.602880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045905 seconds.
-  path: Assets/Models/Gnome_Textured/Assets
-  artifactKey: Guid(19316924b5cf445d193443848765620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Gnome_Textured/Assets using Guid(19316924b5cf445d193443848765620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced583f92c9e35945a1bfc64501ba135') in 0.018561 seconds 
-  Import took 0.044834 seconds .
-
