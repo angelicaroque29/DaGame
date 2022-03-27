@@ -1,22 +1,22 @@
 print "Starting maya loading and fbx conversion \n";
 	
-if (`file -q -exists "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Assets/Sprites/CHINAS~1/vases.mb"`)
+if (`file -q -exists "/Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame/Assets/Sprites/China Shop Asses/vases.mb"`)
 {		
-	file -o "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Assets/Sprites/CHINAS~1/vases.mb";
+	file -o "/Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame/Assets/Sprites/China Shop Asses/vases.mb";
 	FBXExportEmbeddedTextures -v false;
 	// FBXExportHardEdges -v true;
 	FBXExportApplyConstantKeyReducer -v false;
 	FBXExportShowUI -v false;
 
 	print "Before fbx export\n";
-	FBXExport -f "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/ExportedFBXFile.fbx";
+	FBXExport -f "/Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame/Temp/ExportedFBXFile.fbx";
 	print "after fbx export\n";
 }
 else
 	print "Could not open Maya file.";
 
-sysFile -delete "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/CommandPipe";
+sysFile -delete "/Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame/Temp/CommandPipe";
 
-$donepipeKill = `fopen "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/SyncPipeKill" "w"`;
+$donepipeKill = `fopen "/Users/angelicaroque/Desktop/Game Prod/DaGame/DaGame/Temp/SyncPipeKill" "w"`;
 fwrite $donepipeKill "Done";
 fclose $donepipeKill;
