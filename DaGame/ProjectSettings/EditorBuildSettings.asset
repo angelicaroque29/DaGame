@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3b2732129bd1041979f660de8a1b209b
+  - enabled: 0
+    path: Assets/Scenes/CharacterSelection.unity
+    guid: 472af71da61fc4371b3f5a8f1f49404c
+  - enabled: 1
+    path: Assets/Scenes/MainLevel.unity
+    guid: 902dc58fd1d45a240be3dc512b1f823f
+  - enabled: 1
+    path: Assets/Scenes/Mushroom.unity
+    guid: cf2a113c09f01f146ab331d7feb6663d
+  - enabled: 1
+    path: Assets/Scenes/ChinaShop.unity
+    guid: d42531c8da6ad014d8c90ca97fcb1ffc
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: d6e1d3228e83d46b097a58524a960e12
   m_configObjects: {}
