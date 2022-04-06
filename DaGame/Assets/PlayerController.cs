@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool isFalling;
     private bool isRunning;
+    private bool isWalking;
 
     void Start()
     {
@@ -62,6 +63,11 @@ public class PlayerController : MonoBehaviour
         		anim.SetBool("isRunning", false);
         		isRunning = false;
         	}
+            if(Input.GetKeyDown(KeyCode.M))
+            {
+                anim.SetBool("isWalking", true);
+                isWalking = true;
+            }
         }
 
         else
