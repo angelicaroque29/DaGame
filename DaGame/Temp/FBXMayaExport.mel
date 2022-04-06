@@ -1,13 +1,13 @@
 while (1)
 {	
-	if (`filetest -r "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/CommandPipe"`)
+	if (`filetest -r "/Users/angelicaroque/Desktop/Game Prod/Da Game/DaGame/DaGame/Temp/CommandPipe"`)
 	{
 		$exportNormals = 0;
 		$exportTangents = 0;
 		$bakeCommand = "";
 	
 		// Parse settings
-		$waitpipe = `fopen "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/CommandPipe" "r"`;
+		$waitpipe = `fopen "/Users/angelicaroque/Desktop/Game Prod/Da Game/DaGame/DaGame/Temp/CommandPipe" "r"`;
 		$filename = `fgetline $waitpipe`;
 		$fbxFilename = `fgetline $waitpipe`;
 		
@@ -144,9 +144,9 @@ while (1)
 			else
 				print "Could not open Maya file.";
 
-			sysFile -delete "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/CommandPipe";
+			sysFile -delete "/Users/angelicaroque/Desktop/Game Prod/Da Game/DaGame/DaGame/Temp/CommandPipe";
 
-			$donepipe = `fopen "C:/Users/Cassa/DOCUME~1/GitHub/DaGame/Temp/SyncPipe" "w"`;
+			$donepipe = `fopen "/Users/angelicaroque/Desktop/Game Prod/Da Game/DaGame/DaGame/Temp/SyncPipe" "w"`;
 			fwrite $donepipe "Done";
 			fclose $donepipe;
 			print "Finished maya loading and fbx conversion \n";
