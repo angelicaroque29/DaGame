@@ -1,3 +1,1 @@
-[NAME=Timmy][SPEAKERSPRITE=Timmy]Hello!
-[NAME=Gnome][SPEAKERSPRITE=Gnome]Hi.
-[NAME=Timmy][SPEAKERSPRITE=Timmy]Bye.
+[NAME=Timmy][SPEAKERSPRITE=Timmy]

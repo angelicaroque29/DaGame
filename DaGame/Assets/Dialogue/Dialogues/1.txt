@@ -1,0 +1,3 @@
+[NAME=Papaya][SPEAKERSPRITE=]Hola Buenas noches!
+[NAME=Papaya][SPEAKERSPRITE=]Adios!
+

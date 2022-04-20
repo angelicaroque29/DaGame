@@ -1,0 +1,5 @@
+[NAME=Timmy][SPEAKERSPRITE=Timmy]It’s not here.
+[NAME=Timmy][SPEAKERSPRITE=Timmy]I’ve never been in there, but maybe the slingshot fell into the cave.
+[NAME=Timmy][SPEAKERSPRITE=Timmy]I should be careful. Mom said to not go in there.
+
+	

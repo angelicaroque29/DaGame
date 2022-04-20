@@ -1,0 +1,3 @@
+
+
+[NAME=Timmy][SPEAKERSPRITE=Timmy]Those are the geese. Let’s see if I can wrangle them into the city.

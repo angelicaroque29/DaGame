@@ -1,0 +1,2 @@
+[NAME=Timmy][SPEAKERSPRITE=Timmy]The last goose is carrying a slingshot piece!
+[NAME=Timmy][SPEAKERSPRITE=Timmy]I feel like I had more fun than I should have doing that. I should head back…

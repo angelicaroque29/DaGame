@@ -1,0 +1,2 @@
+[NAME=Timmy][SPEAKERSPRITE=Timmy] Oh! A part of my slingshot is here!
+[NAME=Timmy][SPEAKERSPRITE=Timmy] I'll get it and head back through the portal.

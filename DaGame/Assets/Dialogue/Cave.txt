@@ -1,0 +1,17 @@
+e[NAME=Timmy][SPEAKERSPRITE=Timmy]Is that a Gnome?
+[NAME=][SPEAKERSPRITE=????]Ho, there little lad! What brings ya to The Hollow?
+[NAME=Timmy][SPEAKERSPRITE=Timmy] I thought this was a cave? And, Are you a Gnome?
+[NAME=][SPEAKERSPRITE=????]I’m not a Gnome, I’m Gnomeo. 
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo] And Gnomeo just happens to be a Gnome who lives in a cave with his fifteen brothers.
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo]What really matters is – why are you in my home?!
+[NAME=Timmy][SPEAKERSPRITE=Timmy]I, uh. I lost my slingshot and thought it would be down here.
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo] Wait, wait. Are you that kid who lives by the forest?
+[NAME=Timmy][SPEAKERSPRITE=Timmy] Yeah.
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo] Haha! We knew you’d come! My brothers and I were playing with your slingshot. Just ‘borrowing’ it.
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo] And we can give it back, if you help us.
+[NAME=Timmy][SPEAKERSPRITE=Timmy] What?
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo] We have three quests for you to do in order to get your slingshot back. 
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo]Each quest you complete, you will receive a piece of your slingshot.
+[NAME=Timmy][SPEAKERSPRITE=Timmy] What do I need to do?
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo]I don’t know the particulars, but if you find the portal room further inside The Hollow, 
+[NAME=Gnomeo][SPEAKERSPRITE=Gnomeo]my brothers can tell you about what you have to accomplish.

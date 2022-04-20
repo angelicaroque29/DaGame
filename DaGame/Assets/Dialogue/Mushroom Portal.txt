@@ -1,0 +1,4 @@
+[NAME=Timmy][SPEAKERSPRITE=Timmy] Hey um, what’s up?
+[NAME=Gnome][SPEAKERSPRITE=Gnome]Oh you really came to get your slingshot? I didn’t think that’d work…
+[NAME=Timmy][SPEAKERSPRITE=Timmy]My mom will get mad if she sees I lost it. Can you just give it back so I don’t get in trouble?
+[NAME=Gnome][SPEAKERSPRITE=Gnome]Nope. Sucks to suck, head on in the portal. Craig will tell you more there.

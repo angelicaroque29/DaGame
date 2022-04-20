@@ -15,5 +15,11 @@ MonoBehaviour:
   speakerSpriteList:
   - name: Timmy
     sprite: {fileID: 21300000, guid: c7105e788aa19f34e99f315f267ee2ae, type: 3}
+  - name: Gnomeo
+    sprite: {fileID: 4694747019135600420, guid: b7c46e8ac90ea6b4aaa924873477fb80, type: 3}
+  - name: ????
+    sprite: {fileID: 21300000, guid: f6d586390ae254848893255ab957f711, type: 3}
   - name: Gnome
+    sprite: {fileID: 4694747019135600420, guid: b7c46e8ac90ea6b4aaa924873477fb80, type: 3}
+  - name: Craig
     sprite: {fileID: 4694747019135600420, guid: b7c46e8ac90ea6b4aaa924873477fb80, type: 3}

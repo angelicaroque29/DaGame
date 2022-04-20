@@ -1,0 +1,7 @@
+[NAME=Timmy][SPEAKERSPRITE=Timmy]Whoa.
+[NAME=Craig][SPEAKERSPRITE=]Hey! Over here!
+[NAME=Timmy][SPEAKERSPRITE=Timmy] Hello.
+[NAME=Craig][SPEAKERSPRITE=] Hey, thanks for coming to help me farm.
+[NAME=Craig][SPEAKERSPRITE=]You need to bounce on all mushrooms, so the spores will make more fungi.  So, thanks for dinner! 
+[NAME=Craig][SPEAKERSPRITE=]We Gnomes eat mushrooms for just about every meal.
+[NAME=Craig][SPEAKERSPRITE=]You should find your slingshot in the cave at the top once you’re finished.

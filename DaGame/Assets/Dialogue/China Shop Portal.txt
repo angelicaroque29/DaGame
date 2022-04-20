@@ -1,0 +1,6 @@
+[NAME=Timmy][SPEAKERSPRITE=Timmy]So, where does this lead?
+[NAME=Gnome][SPEAKERSPRITE=Gnome]A heist. 
+[NAME=Timmy][SPEAKERSPRITE=Timmy]Timmy: Excuse me? 
+[NAME=Gnome][SPEAKERSPRITE=Gnome]You’re going to be teleported to a store and steal all their cash.  Good luck!
+[NAME=Timmy][SPEAKERSPRITE=Timmy]Timmy: This doesn’t feel right.
+[NAME=Gnome][SPEAKERSPRITE=Gnome]Chaos is always right.
